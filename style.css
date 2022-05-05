@@ -1,0 +1,50 @@
+.g-menu{
+    width: 15px;
+    padding-right: 15px;
+}
+nav{
+    float: right;
+    color: black;
+    row-gap: 3;
+}
+nav a {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.google-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+    div{
+        text-align: center;
+    }
+form{
+    text-align: center;
+    position:relative;
+    top: 80px;
+    right: 200px;
+
+}
+input{
+    border-radius: 50px;
+    height: 40px;
+    width: 550px;
+    border-color: rgb(193, 193, 252);
+
+}
+button{
+    color:aliceblue;
+    background-color:rgb(73, 73, 250);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+:placeholder-shown{
+
+}
+    
