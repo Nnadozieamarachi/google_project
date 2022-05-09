@@ -1,6 +1,9 @@
-.g-menu{
-    width: 15px;
+.g-menu2{
+    width: 50px;
     padding-right: 15px;
+    color: aliceblue;
+    position: relative;
+    top: 20px;
 }
 nav{
     float: right;
@@ -17,7 +20,7 @@ nav a {
     margin-right: auto;
     width: 280px;
     position: relative;
-    top: 50px;
+    top: 90px;
     left: 130px;
 }
     div{
@@ -26,8 +29,8 @@ nav a {
 form{
     text-align: center;
     position:relative;
-    top: 80px;
-    right: 200px;
+    top: 100px;
+    right: 230px;
 
 }
 input{
@@ -37,7 +40,7 @@ input{
     border-color: rgb(193, 193, 252);
 
 }
-button{
+nav button{
     color:aliceblue;
     background-color:rgb(73, 73, 250);
     width: 100px;
@@ -47,4 +50,30 @@ button{
 :placeholder-shown{
 
 }
-    
+div button{
+    width: 170px;
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+body{
+    background:#202124;
+    height: 100%;
+    color: #bdc1c6;
+}
+.lucky{
+    position: absolute;
+    top: 270px;
+    left: 550px;
+
+}
+.search{
+    position: absolute;
+    top: 270px;
+    left: 370px;
+}
+#languages {
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
