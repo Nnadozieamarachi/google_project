@@ -15,22 +15,26 @@ nav a {
     padding-right: 15px;
 }
 .google-icon{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*display: block;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
     width: 280px;
     position: relative;
-    top: 130px;
+    top: 170px;
     left: 130px;
 }
     div{
         text-align: center;
     }
-form{
-    text-align: center;
+div form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*text-align: center;*/
     position:relative;
-    top: 140px;
-    right: 500px;
+    top: 180px;
+    /*right: 500px;*/
 
 }
 input{
@@ -55,7 +59,7 @@ div button{
     width: 170px;
     position: relative;
     top: 200px;
-    left: 300px;
+    left: 20px;
 }
 body{
     background:#202124;
@@ -74,7 +78,11 @@ body{
     left: 370px;*/
 }
 #languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     position: relative;
     top: 220px;
-    left: 300px;
+    /*left: 300px;*/
 }
